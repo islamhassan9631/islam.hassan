@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(12, 101, 237, .85);
+    color: white;
+    font-size: large;
+    height: 50px;
+}
+header a{
+    margin-right: 5px;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+.nav2{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+}
+
+.dropdown-menu{
+    display: block;
+    opacity: 0;
+}
+.navbar-nav .dropdown-toggle:hover +.dropdown-menu{
+
+    opacity: 1;
+    transform: translateX(9%);
+   
+   
+    transition: all 1.5s;
+ 
+}
+.par{
+    border-left: 2px solid white;
+    display: inline-block;
+}
+.par span{
+    margin-left: 10px;
+}
+.par-2{
+    border-left:2px solid white ;
+    
+    display: inline-block;
+}
+.par-2 span{
+    margin-left: 5px;
+}
+.our{
+    background-image: url(../img/slider1.jpg);
+    background-position: center;
+   background-size: cover;
+   height: 500px;
+}
+.our{
+    color: white;
+   
+}
+.overlay-2{
+       
+    height: 100%;
+    overflow: hidden;
+    
+    background-color:  rgb(0 0 5 / 56%)
+}
+.our h1{
+ padding-top: 320px;
+}
+.overlay{
+    
+     margin-top:25px;
+  
+    overflow: hidden;
+    
+    background-color: rgb(0 0 10 / 78%);
+
+}
+.overlay a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.new a span{
+    color: rgba(12, 101, 237, .85);
+    font-size: 25px;
+    
+}
+.new p{
+    color: rgba(12, 101, 237, .85);
+}
+.if{
+    background-color: rgba(12, 101, 237, .85);
+    color: white;
+   
+}
+.if {
+    position: relative;
+}
+.if h4{
+    position: absolute;
+    top: 54%;
+    left: 6%;
+}
+
+.if span{
+    
+    font-size: 60px;
+    color: #ffffff8f;
+}
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    padding-bottom: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.dimo{
+    width: 35px;
+    height:35px;
+    border: 1px solid rgba(12, 101, 237, .85);
+    border-radius: 50%;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+  background-color: rgba(12, 101, 237, .85);
+    position: fixed;
+  bottom:10px
+  ;
+  right: 4%;
+}
+.mark-1 h2{
+    position: relative;
+ }
+  .mark-1 h2::before{
+     content: "";
+     border-bottom: 2px solid rgba(12, 101, 237, .85);
+     
+     width: 80px;
+     position: absolute;
+     height: 8px;
+     top: 45%;
+     left: 34%;
+ }
+ .mark-1 h2 p::before{
+     content: "";
+     
+     border-top: 2px solid rgba(12, 101, 237, .85);
+     width: 46px;
+     position: absolute;
+     height: 8px;
+     top: 45%;
+     left: 37%;
+ }
+ .mark-1 h2 p::after{
+     content: "";
+ 
+ border-top: 2px solid rgba(12, 101, 237, .85);
+ width: 47px;
+ position: absolute;
+ height: 8px;
+ top: 45%;
+ right: 37%;
+ }
+ 
+ 
+     
+ 
+ .mark-1 h2::after{
+     content: "";
+    
+     border-bottom: 2px solid rgba(12, 101, 237, .85);
+     width: 80px;
+     position: absolute;
+     height: 8px;
+     top: 45%;
+     right:  34%;
+ }
+ .work h2{
+    position: relative;
+}
+.work h2::after{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    right:  34%;
+}
+.work h2 p::before{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 46px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    left: 37%;
+}
+.work h2 p::after{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 46px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+   right:  37%;
+}
+
+.work h2::before{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    left:   34%;
+}
+.con{
+    position: relative;
+}
+.con h3::after{
+   content: "";
+   border-bottom: 2px solid rgba(12, 101, 237, .85);
+   width: 80px;
+   position: absolute;
+   height: 8px;
+   top: 26%;
+   left:   3%;
+}
+.pos{
+    position: relative;
+}
+.pos h3::after{
+    content: "";
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 26%;
+    left:  3%;
+}
+.pop{
+    position: relative;
+}
+.pop h3::after{
+    content: "";
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 26%;
+    left:  3%;
+}
+.email{
+    position: relative;
+}
+.email span{
+   position: absolute;
+   top: 10%;
+   left: 35%;
+   
+}
+.email .pen{
+    position: absolute;
+    top: 10%;
+    left: 68%;
+}
+.email .pen2{
+     position: absolute;
+   top: 29%;
+   left: 2%;
+}
+.email .user{
+    position: absolute;
+    top: 10%;
+    left: 2%;
+}
+footer button:hover{
+    background-color:rgba(12, 101, 237, .85) ;
+    color: white;
+}
+.by{
+    color: rgba(12, 101, 237, .85);
+    background-color: #000000e6;
+    height: 100px;
+    padding-top: 25px;
+}
+.buu{
+    position: relative;
+    overflow: hidden;
+   
+}
+.buu::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 150%;
+    background:#fff;
+    filter: blur(1px);
+  
+   
+  
+    opacity: 0.5;
+    top: 0%;
+    left: -150%;
+    transition: 0.9s;
+    transform: rotate(125deg) 
+    ;transition: all ease 1s;
+}
+
+.buu:hover::before{
+   left: 100%;
+}
+.buu1{
+    position: relative;
+    overflow: hidden;
+   
+}
+.buu1::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 150%;
+    background:rgb(152, 189, 245) ;
+   
+   filter: blur(1px);
+  
+    opacity: 0.5;
+    top: 0%;
+    left: -150%;
+    transition: 0.9s;
+    transform: rotate(125deg) 
+    ;transition: all ease 1s;
+}
+
+.buu1:hover::before{
+   left: 100%;
+   
+}
+.pos img:hover{
+    opacity: 75%
+    ;
+}
+.pos a:hover{
+    color: lightgray;
+}

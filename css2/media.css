@@ -1,0 +1,184 @@
+@media (max-width: 1025px){
+    .mark-1 h2::before{
+        content: "";
+        display: none;
+    }
+    .mark-1 h2 p::before{
+        content: "";
+        
+        display: none;
+    }
+    .mark-1 h2 p::after{
+        content: "";
+    
+        display: none;
+    }
+    
+    
+        
+    
+    .mark-1 h2::after{
+        content: "";
+       
+        display: none;
+    }
+    
+   .work h2::after{
+       content: "";
+       
+       display: none;
+   }
+   .work h2 p::before{
+       content: "";
+       
+       display: none;
+   }
+   .work h2 p::after{
+       content: "";
+       
+       display: none;
+   }
+   
+   .work h2::before{
+       content: "";
+       
+       display: none;
+   }
+   
+   .con h3::after{
+      content: "";
+      display: none;
+   }
+   
+   .pos h3::after{
+       content: "";
+       display: none;
+   }
+   .pop{
+       position: relative;
+   }
+   .pop h3::after{
+       content: "";
+       display: none;
+   }
+   .if h4{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px){
+    .email span{
+        position: absolute;
+        top: 35%;
+        left: 2%;
+        
+     }
+     .email .pen{
+         position: absolute;
+         top: 47%;
+         left: 2%;
+     }
+     .email .pen2{
+          position: absolute;
+        top: 61%;
+        left: 2%;
+     }
+     .email .user{
+         position: absolute;
+         top: 22%;
+         left: 2%;
+     }
+     .if h4{
+        position: absolute;
+        top: 38%;
+        left: 3%;
+    }
+    .mark-1 h2::before{
+        content: "";
+        display: none;
+    }
+    .mark-1 h2 p::before{
+        content: "";
+        
+        display: none;
+    }
+    .mark-1 h2 p::after{
+        content: "";
+    
+        display: none;
+    }
+    .dropdown-menu{
+        display:none;
+        
+    }
+    
+    
+        
+    
+    .mark-1 h2::after{
+        content: "";
+       
+        display: none;
+    }
+    
+   .work h2::after{
+       content: "";
+       
+       display: none;
+   }
+   .work h2 p::before{
+       content: "";
+       
+       display: none;
+   }
+   .work h2 p::after{
+       content: "";
+       
+       display: none;
+   }
+   
+   .work h2::before{
+       content: "";
+       
+       display: none;
+   }
+   
+   .con h3::after{
+      content: "";
+      display: none;
+   }
+   
+   .pos h3::after{
+       content: "";
+       display: none;
+   }
+   .pop{
+       position: relative;
+   }
+   .pop h3::after{
+       content: "";
+       display: none;
+   }
+   header{
+       display: none;
+   } 
+}

@@ -1,0 +1,1010 @@
+*{
+    margin: 0;
+    padding: 0;
+
+ } 
+
+    /* height: 700px;
+width: 100%;
+   
+    margin-left: 100px;
+   
+    margin: 200px;
+}
+
+.loo{
+    width: 50px;
+    height: 50px;
+   background-color: #1a1a1a;
+    border-top: 5px solid #1a1a1a;
+    border-bottom:  5px solid #1a1a1a;
+    border-radius: 50%;
+    animation: myloo 1s infinite;
+    float: left;
+    
+    
+}
+
+@keyframes myloo{
+    0% {
+      transform: translatex(0px);
+    }
+    50%{
+        transform: translatex(40px)
+    }
+    100% {
+        transform: translatex(0px) ;
+    }
+}
+.loo2{
+    width: 50px;
+    height: 50px;
+   background-color: blue;
+    border-top: 5px solid blue;
+    border-bottom:  5px solid blue;
+    border-radius: 50%;
+    animation: myloo2 1s infinite;
+    /* margin-top: 50px; */
+    /* float:left;
+    
+}
+@keyframes myloo2 {
+    0% {
+      transform: translatex(0px);
+    }
+    50%{
+         transform: translatex(-40px)
+    }
+    100% {
+        transform: translatex(0px) ;
+    }
+}
+.clear {
+    clear: both;
+}  */
+p{
+    color: #666666;
+}
+header{
+    background-color: rgba(12, 101, 237, .85);
+    color: white;
+    font-size: large;
+    height: 50px;
+}
+header a{
+    margin-right: 5px;
+  padding-top: 10px;
+    color: white;
+    
+}
+.fa a:hover {
+color: white;
+}
+.nav2{
+    width: 100%;
+    margin: auto;
+}
+nav{
+   
+   
+    
+    background-color: white;
+    height: 100px;
+
+    
+}
+
+ 
+.dropdown-menu{
+    display: block;
+    opacity: 0;
+}
+.navbar-nav .dropdown-toggle:hover +.dropdown-menu{
+
+    opacity: 1;
+    transform: translateX(9%);
+   
+   
+    transition: all 1.5s;
+  
+}
+.carousel-indicators{
+    flex-direction: column;
+    bottom: 35%;
+    left: 80%;
+}
+.carousel-indicators [data-bs-target] {
+width: 10px;
+    height: 10px;
+    padding: 2px
+}
+.carousel-item p{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.par{
+    border-left: 2px solid white;
+    display: inline-block;
+    
+   
+}
+.par span{
+    margin-left: 10px;
+}
+.par-2{
+    border-left:2px solid white ;
+   display: inline-block;
+}
+.par-2 span{
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+.buu{
+    position: relative;
+    overflow: hidden;
+   
+}
+.buu::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 150%;
+    background:#fff;
+    filter: blur(1px);
+  
+   
+  
+    opacity: 0.5;
+    top: 0%;
+    left: -150%;
+    transition: 0.9s;
+    transform: rotate(125deg) 
+    ;transition: all ease 1s;
+}
+
+.buu:hover::before{
+   left: 100%;
+   
+    
+   
+ 
+
+}
+
+    
+
+    
+
+ .kk:hover{
+    background-color: rgba(12, 101, 237, .85) !important; 
+}
+.buu1{
+    position: relative;
+    overflow: hidden;
+   
+}
+.buu1::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 150%;
+    background:rgb(152, 189, 245) ;
+   
+   filter: blur(1px);
+  
+    opacity: 0.5;
+    top: 0%;
+    left: -150%;
+    transition: 0.9s;
+    transform: rotate(125deg) 
+    ;transition: all ease 1s;
+}
+
+.buu1:hover::before{
+   left: 100%;
+   
+    
+   
+ 
+
+}
+
+.rr{
+    padding-bottom: 20px;
+}
+.rr a{
+   font-size: 30px;
+}
+.abt img{
+    width: 100%;
+    height: 565px;
+}
+.abt{
+    overflow: hidden;
+    
+}
+.mark2 {
+  position: absolute;
+ 
+  top: 24%;
+    left:4%;
+}
+.mark-1{
+    position: relative;
+}
+.Total{
+    background-color: #d3d3d33b;
+    
+}
+.Total span{
+    font-size: 30px;
+    background-color: white;
+    color: rgba(12, 101, 237, .85);
+    padding: 10px;
+    width:53px;
+    text-align: center;
+    display: inline-block;
+}
+
+ .our {
+background-image:url(../img/service-bg.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+.overlay{
+    
+     
+        height: 100%;
+        overflow: hidden;
+        
+        background-color:  rgb(0 0 0 / 86%);;
+    
+}
+.card{
+    background: transparent;
+    
+}
+.overlay p{
+   color: white;
+}
+.card-work img{
+    width: 100%;
+}
+
+.bb{
+    background-image: url(../img/ecommerce-cover-2.jpg);
+    background-position: center;
+    background-size:cover;
+
+    width: 100%;
+    height: 800px;
+}
+.team{
+    background-color: #f9f9f9;
+}
+.sitt span{
+    color:rgba(12, 101, 237, .85) ;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.sitt hr{
+    width: 80%;
+    margin: auto;
+}
+
+.hr{
+    color: rgba(12, 101, 237, .85);
+    width: 25%;
+    margin: auto;
+   font-weight: bold;
+    
+}
+.sub{
+    background-color: #333;
+    
+    color: white;
+}
+.sub-2{
+    margin-top: 20px;
+}
+.is{
+    width: 80%;
+    margin: auto;
+}
+.ss{
+    background-color: black;
+    color: white;
+}
+.ss a{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    padding-right: 3px;
+}
+.ss:hover{
+    background-color: rgba(12, 101, 237, .85);
+}
+.sss{
+    background-color: #d3d3d33b;
+}
+.if{
+    background-color: rgba(12, 101, 237, .85);
+    color: white;
+   
+}
+.if {
+    position: relative;
+}
+.if h4{
+    position: absolute;
+    top: 54%;
+    left: 6%;
+}
+
+.if span{
+    
+    font-size: 60px;
+    color: #ffffff8f;
+}
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    padding-bottom: 100px;
+}
+.mark-1 h2{
+   position: relative;
+}
+ .mark-1 h2::before{
+    content: "";
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    left: 34%;
+}
+.mark-1 h2 p::before{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 46px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    left: 37%;
+}
+.mark-1 h2 p::after{
+    content: "";
+
+border-top: 2px solid rgba(12, 101, 237, .85);
+width: 47px;
+position: absolute;
+height: 8px;
+top: 45%;
+right: 37%;
+}
+
+
+    
+
+.mark-1 h2::after{
+    content: "";
+   
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    right:  34%;
+}
+.our h2{
+    position: relative;
+}
+.our h2::before{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    left: 32%;
+}
+.our h2 p::before{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 46px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    left: 35%;
+}
+.our h2 p::after{
+    content: "";
+
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 47px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    right: 36%;
+}
+.our h2::after{
+    content: "";
+   
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    right:  33%;
+}
+.work h2{
+    position: relative;
+}
+.work h2::after{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    right:  34%;
+}
+.work h2 p::before{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 46px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    left: 37%;
+}
+.work h2 p::after{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 46px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+   right:  37%;
+}
+
+.work h2::before{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    left:   34%;
+}
+.team h2{
+    position: relative;
+}
+.team h2::before{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    left: 30%;
+}
+.team h2 p::before{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 46px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    left:   33%;
+}
+.team h2 p::after{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 46px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    right:  33%;
+}
+.team h2::after{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 45%;
+    right: 30%;
+}
+.sit{
+    position: relative;
+}
+.sit h2::before{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 25%;
+    left: 37%;
+}
+.sit h2 p::before{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 52px;
+    position: absolute;
+    height: 8px;
+    top: 25%;
+    left:   39%;
+}
+.sit h2 p::after{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 52px;
+    position: absolute;
+    height: 8px;
+    top: 30%;
+    right:  38%;
+}
+.sit h2::after{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 30%;
+    right: 36%;
+}
+.te{
+    position: relative;
+}
+.te h2::before{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 49%;
+    left: 34%;
+}
+.te h2 p::before{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 46px;
+    position: absolute;
+    height: 8px;
+    top: 47%;
+    left:   37%;
+}
+.te h2 p::after{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 46px;
+    position: absolute;
+    height: 8px;
+    top: 47%;
+    right:  37%;
+}
+.te h2::after{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 49%;
+    right: 34%;
+}
+.la{
+    position: relative;
+}
+.la h2::before{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 21%;
+    left: 36%;
+}
+.la h2::after{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 23%;
+    right: 36%;
+}
+.cl{
+    position: relative;
+}
+.cl h2::before{
+    content: "";
+    
+    border-top: 2px solid rgba(12, 101, 237, .85);
+    width: 46px;
+    position: absolute;
+    height: 8px;
+    top: 49%;
+    right:  33%;
+}
+.cl h2::after{
+    content: "";
+    
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 49%;
+    right: 30%;
+}
+.team span{
+    font-size: 30px;
+}
+.tt h5 {
+    color: white;
+}
+.tt a span{
+    color: white;
+    font-size: 25px;
+   
+    
+}
+.g{
+    position: relative;
+    overflow: hidden;
+}
+.gg{
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    padding: 0;
+    height: 100%;
+    
+    left: 0;
+}
+.g:hover .gg{
+    top: 0%;
+    transition: all 1s;
+   
+}
+
+.mil-1{
+    position: relative;
+    overflow: hidden;
+    
+}
+.mil-1 button{
+    left: 10%;
+}
+.mil-1 img{
+    height: 500px;
+}
+.mil-2 button{
+width: 95%;
+}
+.mil-2 a:hover{
+    color: #1a1a1a;
+}
+.mil-2 button a{
+    color: white;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.mil{
+    position: absolute;
+   top: 84%;
+    background-color: white;
+   
+    
+}
+.as{
+    position: relative;
+    overflow: hidden;
+}
+.ass img{
+    height: 400px;
+    width: 100%;
+   
+}
+.all-1 a:hover{
+    color:rgba(12, 101, 237, .85) ;
+}
+.all-1 a span{
+    color:rgba(12, 101, 237, .85) ;
+}
+    
+
+.all-1 a{
+    margin-right: 5px;
+    color: black;
+}
+.last-1{
+    position: absolute;
+   color: white;
+   border-radius: 10px;
+   width: 90%;
+   padding: 5px 20px;
+   top: 70%;
+   left: 5%;
+   transform: scaleX(0);
+   transition: 1s;
+}
+.last-1 span{
+    font-size: 20px;
+    margin-left: 90%;
+}
+.ass:hover{
+    box-shadow: 0px 0px 8px 10px lightgray;
+}
+.as:hover .last-1{
+    left: 5%;
+    background-color: rgba(12, 101, 237, .85);
+    transform: scaleX(1);
+    top: 70;
+}
+.bor{
+    margin-top:9px;
+}
+.mil-1:hover > .mil .bor{
+    display: none;
+}
+
+.mil-1:hover .mil {
+  top: 60%;
+    transition:  1s;
+   border: 0;
+}
+.mil-1:hover > .mil button{
+    transform: translatey(-48%);
+    transition: all 1.5s;
+}
+
+    
+
+
+.xx{
+    width: 15%;
+    height:10vh;
+    border: 1px solid rgba(12, 101, 237, .85);
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    color: rgba(12, 101, 237, .85);
+    background-color: #fff;
+    font-size: 25px;
+    padding-bottom: 5px;
+
+} 
+ .nav-tabs>.active {
+     background-color: rgba(12, 101, 237, .85);
+     color: #fff;
+}
+
+
+ 
+.zz{
+    width: 15%;
+    height:10vh;
+    border: 1px solid rgba(12, 101, 237, .85);
+    border-top-right-radius: 50px;
+  border-bottom-right-radius:  50px;
+    background-color: white;
+    color: rgba(12, 101, 237, .85);
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.sha{
+    box-shadow: 0px 0px 8px 10px lightgray;
+}
+.nav-tabs .nav-link.active{
+    border: 0px;
+}
+
+
+
+
+
+
+ 
+
+
+
+.sl{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 200px;
+}
+.meet img{
+    height: 110px;
+    width: 100%;
+    
+}
+.meet-2 img{
+    
+        filter: drop-shadow(-9px 11px 14px gray);
+     
+}
+.shad{
+    box-shadow: 0px 0px 8px 10px lightgray;
+}
+.border{
+    overflow: hidden;
+}
+.yy .border img{
+    transform: scale(1);
+    transition: 1s;
+}
+.yy:hover .border img{
+    transform: rotate(-2deg)scale(1.1);
+    
+    width: 102%;
+    transition:1ms;
+    
+}
+.progress-bar{
+    width: 25%;
+    
+}
+.yy a span{
+    margin-bottom: 10px;
+}
+.yy:hover .ss{
+    background-color: rgba(12, 101, 237, .85);
+}
+.yy h5:hover{
+    color: rgba(12, 101, 237, .85);
+}
+.yy:hover .progress-bar{
+    width: 100%;
+    transition: 1s;
+}
+.ooo{
+    overflow: hidden;
+}
+.ooo img{
+    height: 240px;
+    transition: 1s;
+}
+.ss a{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.dimo{
+    width: 35px;
+    height:35px;
+    border: 1px solid rgba(12, 101, 237, .85);
+    border-radius: 50%;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+  background-color: rgba(12, 101, 237, .85);
+    position: fixed;
+  bottom:10px
+  ;
+  right: 4%;
+  display: none;
+}
+.by{
+    color: rgba(12, 101, 237, .85);
+    background-color: #000000e6;
+    height: 100px;
+    padding-top: 25px;
+}
+.by p{
+    color: rgba(12, 101, 237, .85);
+}
+.con{
+    position: relative;
+}
+.con p{
+    color: white;
+}
+.con h3::after{
+   content: "";
+   border-bottom: 2px solid rgba(12, 101, 237, .85);
+   width: 80px;
+   position: absolute;
+   height: 8px;
+   top: 26%;
+   left:   3%;
+}
+.pos{
+    position: relative;
+}
+.pos h3::after{
+    content: "";
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 26%;
+    left:  3%;
+}
+.pop{
+    position: relative;
+}
+.pop h3::after{
+    content: "";
+    border-bottom: 2px solid rgba(12, 101, 237, .85);
+    width: 80px;
+    position: absolute;
+    height: 8px;
+    top: 26%;
+    left:  3%;
+}
+footer button:hover{
+    background-color:rgba(12, 101, 237, .85) ;
+    color: white;
+}
+.owl-prev{
+    width: 42px !important;
+    height: 25px !important;
+    background-color:rgba(12, 101, 237, .85) !important ;
+    margin-right: 10px !important;
+    color: #fff !important;
+    border-top-left-radius: 25px !important;
+    border-bottom-left-radius: 25px !important;
+    margin-top: 25px !important;
+}
+ .owl-next{
+
+    width: 42px !important;
+    height: 25px !important;
+    background-color:rgba(12, 101, 237, .85) !important ;
+    margin-right:6px !important;
+    color: #fff !important;
+    border-top-right-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+    
+ } 
+ .owl-prev:hover  {
+     background-color: black !important;
+ } 
+ .owl-next:hover  {
+    background-color: black !important;
+} 
+.item img{
+    width: 100%;
+}
+.pos img:hover{
+    opacity: 75%;
+}
+
+
+    

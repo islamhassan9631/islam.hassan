@@ -1,0 +1,229 @@
+@media (min-width: 280px) and (max-width: 1025px){
+    .xx{
+        width: 22%;
+        height:7vh;
+        border: 1px solid rgba(12, 101, 237, .85);
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+        /* background-color: rgba(12, 101, 237, .85); */
+        color: rgba(12, 101, 237, .85);
+        font-size: 40px;
+        padding-bottom: 5px;
+    
+    } 
+    .zz{
+        width: 22%;
+        height:7vh;
+        border: 1px solid rgba(12, 101, 237, .85);
+        border-top-right-radius: 50px;
+      border-bottom-right-radius:  50px;
+        /* background-color: white; */
+        color: rgba(12, 101, 237, .85);
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+  
+    .if h4{
+        position: absolute;
+        top:35%;
+        left: 2%;
+    }
+    .con h3::after{
+        display: none;
+    }
+    .con h3::after{
+        display: none;
+    }
+    .pop h3::after{
+        display: none;
+    }
+    
+   
+    .mark-1 h2::before{
+        content: "";
+        display: none;
+    }
+    .mark-1 h2 p::before{
+        content: "";
+        
+        display: none;
+    }
+    .mark-1 h2 p::after{
+        content: "";
+    
+        display: none;
+    }
+    
+    
+        
+    
+    .mark-1 h2::after{
+        content: "";
+       
+        display: none;
+    }
+    
+    .our h2::before{
+        content: "";
+        
+        display: none;
+    }
+    .our h2 p::before{
+        content: "";
+        
+        display: none;
+    }
+    .our h2 p::after{
+        content: "";
+    
+        display: none;
+    }
+    .our h2::after{
+        content: "";
+       
+        display: none;
+    }
+    
+    .work h2::after{
+        content: "";
+        
+        display: none;
+    }
+    .work h2 p::before{
+        content: "";
+        
+        display: none;
+    }
+    .work h2 p::after{
+        content: "";
+        
+        display: none;
+    }
+    
+    .work h2::before{
+        content: "";
+        
+        display: none;
+    }
+    
+    .team h2::before{
+        content: "";
+        
+        display: none;
+    }
+    .team h2 p::before{
+        content: "";
+        
+        display: none;
+    }
+    .team h2 p::after{
+        content: "";
+        
+        display: none;
+    }
+    .team h2::after{
+        content: "";
+        
+        display: none;
+    }
+   
+    .sit h2::before{
+        content: "";
+        
+        display: none;
+    }
+    .sit h2 p::before{
+        content: "";
+        
+        display: none;
+    }
+    .sit h2 p::after{
+        content: "";
+        
+        display: none;
+    }
+    .sit h2::after{
+        display: none;
+    }
+   
+    .te h2::before{
+        content: "";
+        
+        display: none;
+    }
+    .te h2 p::before{
+        content: "";
+        
+        display: none;
+    }
+    .te h2 p::after{
+        content: "";
+        
+        display: none;
+    }
+    .te h2::after{
+        content: "";
+        
+        display: none;
+    }
+   
+    .la h2::before{
+        content: "";
+        
+        display: none;
+    }
+    .la h2::after{
+        content: "";
+        
+        display: none;
+    }
+   
+    .cl h2::before{
+        content: "";
+        
+      display: none;
+    }
+    .cl h2::after{
+        content: "";
+        
+       display: none;
+    }
+    .dropdown-menu{
+        display: block;
+        opacity: 0;
+        display: none;
+    }
+
+}
+@media (min-width: 280px) and (max-width: 750px){
+    .xx{
+        width: 31%;
+        height:10vh;
+        border: 1px solid rgba(12, 101, 237, .85);
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+        /* background-color: rgba(12, 101, 237, .85); */
+        color: rgba(12, 101, 237, .85);
+        font-size: 20px;
+        padding-bottom: 5px;
+    
+    } 
+    .zz{
+        width: 31%;
+        height:10vh;
+        border: 1px solid rgba(12, 101, 237, .85);
+        border-top-right-radius: 50px;
+      border-bottom-right-radius:  50px;
+        /* background-color: white; */
+        color: rgba(12, 101, 237, .85);
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    
+    .dropdown-menu{
+        display: block;
+        opacity: 0;
+        display: none;
+    }
+
+}
